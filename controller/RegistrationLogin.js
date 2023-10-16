@@ -2,15 +2,12 @@ const bcrypt=require('bcrypt');
 const secretkey="mahesh@$1234"
 const saltround=10;
 const jwt=require('jsonwebtoken');
-const client=require('../database/connection')
-const db=client.db('E-commerce')
-const user=db.collection('Users') 
-
+const user_register=require('../model/UsersModel')
 const register= async (req,res)=>{ 
     try{
 const details=req.body;
 console.log("details:",details)
-const find= await user.findOne({email:details.email})
+const find= await user_register.findOne({email:details.email})
 if(find){
     return res.send({msg:"user is already registered"})
 }
@@ -18,7 +15,7 @@ const hashPswrd=bcrypt.hashSync(details.password,saltround);
 details.password=hashPswrd;
 console.log("hashed password",details.password);
 // arr.push(details);
-const data=user.insertOne(details);
+const data=user_register.create(details);
 const token=jwt.sign({email:details.email},secretkey,{expiresIn:'8d'})
 
 return res.status(200).send({msg:"user is successfully registered",result:"OK",password:details.password,result:details})
@@ -35,7 +32,7 @@ const login=async(req,res)=>{
     const details=req.body;
     console.log("details:",details)
     // const find=arr.find((item)=>item.email===details.email) 
-    const find= await user.findOne({email:details.email})
+    const find= await user_register.findOne({email:details.email})
     if(!find){ 
         return res.send({msg:"user is not registered"}) 
     }
@@ -46,7 +43,7 @@ const login=async(req,res)=>{
     }
     let token =jwt.sign({email:details.email},secretkey,{expiresIn:'30d'}); 
     console.log("token:",token);
-    const islogin=user.updateOne({email:find.email},{$set:{islogin:true}})
+    // const islogin=user.updateOne({email:find.email},{$set:{islogin:true}})
     return res.status(200).send({msg:"user is successfully loged in",token:token,result:"OK",username:find.name,islogin:true})
     }
     catch(err){

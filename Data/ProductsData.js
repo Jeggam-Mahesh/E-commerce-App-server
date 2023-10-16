@@ -6,7 +6,8 @@ const MobilesData = [
     price: 11999,
     highlights:
       "With the superb Vivo T2x 5G, you can take advantage of great pictures and a flawless user experience. With the Vivo T2x 5G, you can experience exceptional performance owing to its 7 nm 5G CPU, the octa-core Dimensity 6020, with a top clock speed of 2.2 GHz. Additionally, the 50 MP main camera on this smartphone beautifully catches every detail you see. Additionally, Super Night Selfie employs noise cancellation technology in conjunction with an Aura Screen Light to produce a calming light that is effective in low light. The pioneering Extended RAM 3.0 technology also uses ROM to expand RAM with a maximum capacity of 8 GB. This enables smooth app switching and allows up to 27 active applications to run in the background.",
-    category: "vivo",
+    brand: "vivo",
+category:"mobile"
   },
   {
     product_tittle: "vivo T2 Pro 5G(Dune Gold ,128GB)",
@@ -15,7 +16,8 @@ const MobilesData = [
     price: 23999,
     highlights:
       "With the superb Vivo T2 Pro 5G, you can take advantage of great pictures and a flawless user experience. With the Vivo T2x 5G, you can experience exceptional performance owing to its 7 nm 5G CPU, the octa-core Dimensity 6020, with a top clock speed of 2.2 GHz. Additionally, the 50 MP main camera on this smartphone beautifully catches every detail you see. Additionally, Super Night Selfie employs noise cancellation technology in conjunction with an Aura Screen Light to produce a calming light that is effective in low light. The pioneering Extended RAM 3.0 technology also uses ROM to expand RAM with a maximum capacity of 8 GB. This enables smooth app switching and allows up to 27 active applications to run in the background.",
-    category: "vivo",
+    brand: "vivo",
+    category:"mobile"
   },
   {
     product_tittle: "vivo V29e 5G (Artistic Red, 128 GB)  (8 GB RAM)",
@@ -24,7 +26,8 @@ const MobilesData = [
     price: 26999,
     highlights:
       "With the superb Vivo V29e 5G, you can take advantage of great pictures and a flawless user experience. With the Vivo T2x 5G, you can experience exceptional performance owing to its 7 nm 5G CPU, the octa-core Dimensity 6020, with a top clock speed of 2.2 GHz. Additionally, the 50 MP main camera on this smartphone beautifully catches every detail you see. Additionally, Super Night Selfie employs noise cancellation technology in conjunction with an Aura Screen Light to produce a calming light that is effective in low light. The pioneering Extended RAM 3.0 technology also uses ROM to expand RAM with a maximum capacity of 8 GB. This enables smooth app switching and allows up to 27 active applications to run in the background.",
-    category: "vivo",
+    brand: "vivo",
+    category:"mobile"
   },
   {
     product_tittle: "vivo Y56 5G (Orange Shimmer, 128 GB)  (8 GB RAM)",
@@ -33,7 +36,8 @@ const MobilesData = [
     price: 26999,
     highlights:
       "With the superb Vivo Y56 5G, you can take advantage of great pictures and a flawless user experience. With the Vivo T2x 5G, you can experience exceptional performance owing to its 7 nm 5G CPU, the octa-core Dimensity 6020, with a top clock speed of 2.2 GHz. Additionally, the 50 MP main camera on this smartphone beautifully catches every detail you see. Additionally, Super Night Selfie employs noise cancellation technology in conjunction with an Aura Screen Light to produce a calming light that is effective in low light. The pioneering Extended RAM 3.0 technology also uses ROM to expand RAM with a maximum capacity of 8 GB. This enables smooth app switching and allows up to 27 active applications to run in the background.",
-    category: "vivo",
+    brand: "vivo",
+    category:"mobile"
   },
   {
     product_tittle: "vivo T1 5G (Starlight Black, 128 GB)  (6 GB RAM)",
@@ -42,7 +46,8 @@ const MobilesData = [
     price: 16990,
     highlights:
       "With the superb Vivo T1 5G, you can take advantage of great pictures and a flawless user experience. With the Vivo T2x 5G, you can experience exceptional performance owing to its 7 nm 5G CPU, the octa-core Dimensity 6020, with a top clock speed of 2.2 GHz. Additionally, the 50 MP main camera on this smartphone beautifully catches every detail you see. Additionally, Super Night Selfie employs noise cancellation technology in conjunction with an Aura Screen Light to produce a calming light that is effective in low light. The pioneering Extended RAM 3.0 technology also uses ROM to expand RAM with a maximum capacity of 8 GB. This enables smooth app switching and allows up to 27 active applications to run in the background.",
-    category: "vivo",
+    brand: "vivo",
+    category:"mobile"
   },
   {
     product_tittle: "vivo V27 5G (Noble Black, 256 GB)  (12 GB RAM)",
@@ -51,7 +56,8 @@ const MobilesData = [
     price:39998,
     highlights:
       "With the superb Vivo Y56 5G, you can take advantage of great pictures and a flawless user experience. With the Vivo T2x 5G, you can experience exceptional performance owing to its 7 nm 5G CPU, the octa-core Dimensity 6020, with a top clock speed of 2.2 GHz. Additionally, the 50 MP main camera on this smartphone beautifully catches every detail you see. Additionally, Super Night Selfie employs noise cancellation technology in conjunction with an Aura Screen Light to produce a calming light that is effective in low light. The pioneering Extended RAM 3.0 technology also uses ROM to expand RAM with a maximum capacity of 8 GB. This enables smooth app switching and allows up to 27 active applications to run in the background.",
-    category: "vivo",
+    brand: "vivo",
+    category:"mobile"
   },
   {
     product_tittle:"realme narzo 50A Prime (Flash Blue, 4GB RAM+128GB Storage)",
@@ -63,7 +69,8 @@ const MobilesData = [
     Powerful Unisoc T612 processor | Boasts superb performance with an AnTuTu Benchmark Score of 214, 150 | 12 nm Process with Octa-core CPU
     50MP AI Triple Rear Camera (f/1.8 Aperture, B&W Lens f/2.8 Aperture, Macro Lens f/2.8 Aperture)| 8MP Front Camera
     4 GB RAM | 128 GB ROM`,
-    category:"realme"
+    brand:"realme",
+    category:"mobile"
   },
   {
     product_tittle:"realme narzo 50i (Carbon Black, 4GB RAM+64GB Storage)",
@@ -75,7 +82,8 @@ const MobilesData = [
     8MP Primary Camera (f/2.0 Aperture,4P Lens,4x, Digital Zoom Panoramic View, Portrait Mode, Expert, Timelapse, HDR, Beauty, Filter | 5MP AI Selfie Camera (f/2.2 aperture, portrait Mode, AI Beauty, HDR, Face-Recognition, Filter)
     5000 mAh Massive Battery | Supports Ultra Saving Mode |
     Powerful Octa-core Processor | CPU: Octa-core CPU, up to 1.6GHz | GPU: IMG 8322`,
-    category:"realme"
+    brand:"realme",
+    category:"mobile"
   },
   {
     product_tittle:"realme narzo N53 (Feather Black, 4GB+64GB)",
@@ -87,7 +95,8 @@ const MobilesData = [
     The slim and sleek 7.49mm design adds a touch of elegance to your device, making it comfortable to hold and carry. The feather gold design enhances the visual appeal, giving your phone a premium and luxurious look.
     Capture stunning, detailed photos with the high-resolution 50MP AI camera, bringing your memories to life.The AI-powered camera technology ensures intelligent scene recognition and enhances your photography skills.
     Stay connected and productive for extended periods with the massive 5000mAh battery, eliminating the need for frequent recharging. Enjoy long hours of entertainment, gaming, and browsing without worrying about running out of battery power.`,
-    category:"realme"
+    brand:"realme",
+    category:"mobile"
   },
   {
     product_tittle:"realme narzo 50 (Speed Black, 4GB RAM+64GB Storage)",
@@ -99,7 +108,8 @@ const MobilesData = [
     50MP + 2MP + 2MP AI triple rear camera setup with 50MP Mode, Ultra Steady Video, Night Mode, Panoramic view| Crystal clear 16MP Selfie Camera
     5000mAh Massive Battery with 33W Dart charging support. The 33W Dart charger is included in the box with a USB Type-C cable.
     4 GB RAM LPDDR4X Fast memory | 64 GB ROM UFS 2.1`,
-    category:"realme"
+    brand:"realme",
+    category:"mobile"
   },
   {
     product_tittle:"Realme GT Neo 3 (Sprint White, 8GB RAM, 128GB Storage)",
@@ -108,7 +118,8 @@ const MobilesData = [
     highlights:`About this item
     ☆【RAM, ROM And Expandable】:- 8 GB RAM | 128 GB ROM | Not Expandable | RAM Type : LPDDR5 | Storage Type : UFS 3.1 storage.
     ☆【Display】:- 6.7 Inch Full HD+ | AMOLED Display, GT Neo 3 comes With a 120 Hz display and a touch sampling rate of up to 360 Hz, the Realme GT NEO 3 offers enthralling display performance and allows you to redefine smoothness among your peers. Thanks to the 2412*1080 FHD+ resolution and over a billion colours, you can enjoy unrivalled visual experience and get amused whenever you switch your phone on. Corning Gorilla Generation 5 glass facilitates the durability and robustness of the screen.`,
-    category:"realme"
+    brand:"realme",
+    category:"mobile"
   },
   {
     product_tittle:"realme C53, Champion Gold, 4GB RAM, 128GB Storage",
@@ -120,7 +131,8 @@ const MobilesData = [
     8MP back camera for crisp and clear shots and 5MP front camera picture perfect selfies
     5000mAh Massive Battery with 10W fast charging support. The 10W fast charger is included in the box.
     3 GB RAM | 32 GB ROM | External storage is Expandable Up to 1TB`,
-    category:"realme"
+    brand:"realme",
+    category:"mobile"
   },
 
 ]
@@ -135,7 +147,8 @@ const laptopsdata=[
     Powerful Performance – Take on everything from professional-quality editing to action-packed gaming with ease. The Apple M1 chip with an 8-core CPU delivers up to 3.5x faster performance than the previous generation while using way less power.
     Superfast Memory – 8GB of unified memory makes your entire system speedy and responsive. That way it can support tasks like memory-hogging multitab browsing and opening a huge graphic file quickly and easily.
     Stunning Display – With a 13.3-inch/33.74 cm Retina display, images come alive with new levels of realism. Text is sharp and clear, and colors are more vibrant.`,
-    category:"applelaptop"
+    brand:"applelaptop",
+    category:"laptop"
   },
   {
     product_tittle:"Apple 2023 MacBook Pro Laptop M2 Max chip with 12‑core CPU ",
@@ -147,7 +160,8 @@ const laptopsdata=[
     FULLY COMPATIBLE — All your pro apps run lightning-fast — including Adobe Creative Cloud, Xcode, Affinity Designer, Microsoft 365, and many of your favourite iPhone and iPad apps.
     BEAUTIFUL PRO DISPLAY — The 16.2-inch Liquid Retina XDR display features Extreme Dynamic Range, over 1,000 nits of brightness for stunning HDR content and pro reference modes for doing your best work on the go.
     ADVANCED CAMERA AND AUDIO — Look sharp and sound great with a 1080p FaceTime HD camera, a studio-quality three-mic array, and a six-speaker sound system with Spatial Audio.`,
-    category:"applelaptop"
+    brand:"applelaptop",
+    category:"laptop"
   },
   {
     product_tittle:"Apple 2023 MacBook Pro Laptop M2 Max chip with 12‑core CPU and 30‑core GPU: 33.74 cm",
@@ -158,7 +172,8 @@ const laptopsdata=[
     UP TO 18 HOURS OF BATTERY LIFE — Go all day thanks to the power-efficient design of the M2 Pro or M2 Max chip. And MacBook Pro delivers exceptional performance whether it’s running on battery or plugged in.
     FULLY COMPATIBLE — All your pro apps run lightning-fast — including Adobe Creative Cloud, Xcode, Affinity Designer, Microsoft 365, and many of your favourite iPhone and iPad apps.
     BEAUTIFUL PRO DISPLAY — The 14.2-inch Liquid Retina XDR display features Extreme Dynamic Range, over 1,000 nits of brightness for stunning HDR content and pro reference modes for doing your best work on the go.`,
-    category:"applelaptop"
+    brand:"applelaptop",
+    category:"laptop"
   },
   {
     product_tittle:"Apple 2023 MacBook Pro Laptop M2 Pro chip with 10‑core CPU and 16‑core GPU",
@@ -169,7 +184,8 @@ const laptopsdata=[
     UP TO 18 HOURS OF BATTERY LIFE — Go all day thanks to the power-efficient design of the M2 Pro or M2 Max chip. And MacBook Pro delivers exceptional performance whether it’s running on battery or plugged in.
     FULLY COMPATIBLE — All your pro apps run lightning-fast — including Adobe Creative Cloud, Xcode, Affinity Designer, Microsoft 365, and many of your favourite iPhone and iPad apps.
     BEAUTIFUL PRO DISPLAY — The 14.2-inch Liquid Retina XDR display features Extreme Dynamic Range, over 1,000 nits of brightness for stunning HDR content and pro reference modes for doing your best work on the go.`,
-    category:"applelaptop"
+    brand:"applelaptop",
+    category:"laptop"
   },
   {
     product_tittle:"Apple MacBook Air Laptop M1 chip, 13.3-inch/33.74 cm Retina Display, 8GB RAM, 256GB SSD Storage",
@@ -180,7 +196,8 @@ const laptopsdata=[
     Powerful Performance – Take on everything from professional-quality editing to action-packed gaming with ease. The Apple M1 chip with an 8-core CPU delivers up to 3.5x faster performance than the previous generation while using way less power.
     Superfast Memory – 8GB of unified memory makes your entire system speedy and responsive. That way it can support tasks like memory-hogging multitab browsing and opening a huge graphic file quickly and easily.
     Stunning Display – With a 13.3-inch/33.74 cm Retina display, images come alive with new levels of realism. Text is sharp and clear, and colors are more vibrant.`,
-    category:"applelaptop"
+    brand:"applelaptop",
+    category:"laptop"
   },
   {
     product_tittle:"Apple 2023 MacBook Pro Laptop M2 Max chip with 12‑core CPU and 30‑core GPU: 33.74 cm",
@@ -191,7 +208,8 @@ const laptopsdata=[
     UP TO 18 HOURS OF BATTERY LIFE — Go all day thanks to the power-efficient design of the M2 Pro or M2 Max chip. And MacBook Pro delivers exceptional performance whether it’s running on battery or plugged in.
     FULLY COMPATIBLE — All your pro apps run lightning-fast — including Adobe Creative Cloud, Xcode, Affinity Designer, Microsoft 365, and many of your favourite iPhone and iPad apps.
     BEAUTIFUL PRO DISPLAY — The 14.2-inch Liquid Retina XDR display features Extreme Dynamic Range, over 1,000 nits of brightness for stunning HDR content and pro reference modes for doing your best work on the go.`,
-    category:"applelaptop"
+    brand:"applelaptop",
+    category:"laptop"
   },
   {
     product_tittle:"Lenovo IdeaPad Slim 3 Intel Core i3-1115G4 11th Gen 15.6 (39.62cm)",
@@ -204,7 +222,8 @@ const laptopsdata=[
     Display: 15.6" FHD (1920x1080) | TN Technology Display | 250Nits Brightness | Anti Glare
     Design: 4 side narrow bezel | 1.99 cm & 1.65 kg | Non-backlit Keyboard | Connectivity: Wi-Fi 5 (11ac | 2x2) | BT 5.0
     Battery Life: 3-Cell 45Wh | Upto 6 Hours | Rapid Charge (Up to 80% in 1 Hour) || Audio: 2x 1.5W Stereo Speakers | HD Audio | Dolby Audio`,
-    category:"lenovolaptop"
+    brand:"lenovolaptop",
+    category:"laptop"
   },
   {
     product_tittle:"Lenovo IdeaPad Gaming 3 AMD Ryzen 5 6600H 15.6 (39.62cm)",
@@ -217,7 +236,8 @@ const laptopsdata=[
     Display: 15.6" FHD (1920x1080) | TN Technology Display | 250Nits Brightness | Anti Glare
     Design: 4 side narrow bezel | 1.99 cm & 1.65 kg | Non-backlit Keyboard | Connectivity: Wi-Fi 5 (11ac | 2x2) | BT 5.0
     Battery Life: 3-Cell 45Wh | Upto 6 Hours | Rapid Charge (Up to 80% in 1 Hour) || Audio: 2x 1.5W Stereo Speakers | HD Audio | Dolby Audio`,
-    category:"lenovolaptop"
+    brand:"lenovolaptop",
+    category:"laptop"
   },
   {
     product_tittle:"Lenovo IdeaPad Gaming 3 Intel Core i5-11320H 15.6 (39.62cm)",
@@ -230,7 +250,8 @@ const laptopsdata=[
     Display: 15.6" FHD (1920x1080) | TN Technology Display | 250Nits Brightness | Anti Glare
     Design: 4 side narrow bezel | 1.99 cm & 1.65 kg | Non-backlit Keyboard | Connectivity: Wi-Fi 5 (11ac | 2x2) | BT 5.0
     Battery Life: 3-Cell 45Wh | Upto 6 Hours | Rapid Charge (Up to 80% in 1 Hour) || Audio: 2x 1.5W Stereo Speakers | HD Audio | Dolby Audio`,
-    category:"lenovolaptop"
+    brand:"lenovolaptop",
+    category:"laptop"
   },
   {
     product_tittle:"Lenovo IdeaPad Slim 3 Ryzen 5 7520U 15. (39.6cm) FHD Laptop (16GB/512GB SSD/Win 11/Office /2021)",
@@ -243,7 +264,8 @@ const laptopsdata=[
     Display: 15.6" FHD (1920x1080) | TN Technology Display | 250Nits Brightness | Anti Glare
     Design: 4 side narrow bezel | 1.99 cm & 1.65 kg | Non-backlit Keyboard | Connectivity: Wi-Fi 5 (11ac | 2x2) | BT 5.0
     Battery Life: 3-Cell 45Wh | Upto 6 Hours | Rapid Charge (Up to 80% in 1 Hour) || Audio: 2x 1.5W Stereo Speakers | HD Audio | Dolby Audio`,
-    category:"lenovolaptop"
+    brand:"lenovolaptop",
+    category:"laptop"
   },
   {
     product_tittle:"Lenovo IdeaPad Slim 3 Intel Core i3 11th Gen 14 (35.56cm)",
@@ -256,7 +278,8 @@ const laptopsdata=[
     Display: 15.6" FHD (1920x1080) | TN Technology Display | 250Nits Brightness | Anti Glare
     Design: 4 side narrow bezel | 1.99 cm & 1.65 kg | Non-backlit Keyboard | Connectivity: Wi-Fi 5 (11ac | 2x2) | BT 5.0
     Battery Life: 3-Cell 45Wh | Upto 6 Hours | Rapid Charge (Up to 80% in 1 Hour) || Audio: 2x 1.5W Stereo Speakers | HD Audio | Dolby Audio`,
-    category:"lenovolaptop"
+    brand:"lenovolaptop",
+    category:"laptop"
   },
   {
     product_tittle:"Lenovo V15 Intel Celeron N4500 15. (39.62 cm) FHD (1920x1080)",
@@ -269,7 +292,8 @@ const laptopsdata=[
     Display: 15.6" FHD (1920x1080) | TN Technology Display | 250Nits Brightness | Anti Glare
     Design: 4 side narrow bezel | 1.99 cm & 1.65 kg | Non-backlit Keyboard | Connectivity: Wi-Fi 5 (11ac | 2x2) | BT 5.0
     Battery Life: 3-Cell 45Wh | Upto 6 Hours | Rapid Charge (Up to 80% in 1 Hour) || Audio: 2x 1.5W Stereo Speakers | HD Audio | Dolby Audio`,
-    category:"lenovolaptop"
+    brand:"lenovolaptop",
+    category:"laptop"
   },
   
 ]
@@ -284,7 +308,8 @@ const watchesData=[
     Noise Buzz: Manage calls directly from your wrist. Access your call logs, make calls from the dial pad and save up to 10 favourite contacts.
     Noise Health SuiteTM: Take better care of your daily health with a series of health monitoring tools – Blood oxygen monitor, Sleep monitor, 24x7 heart rate monitor, Stress measurement, Breathe practice & Female cycle tracker.
     100 sports modes: Indulge in the routine of your preference with several sports modes to choose from.`,
-    category:"noisewatch"
+    brand:"noisewatch",
+    category:"watch"
   },
   {
     product_tittle:"Noise Arc 1.38 Advanced Bluetooth Calling Smart Watch, 550 NITS Brightness",
@@ -296,7 +321,8 @@ const watchesData=[
     Noise Buzz: Manage calls directly from your wrist. Access your call logs, make calls from the dial pad and save up to 10 favourite contacts.
     Noise Health SuiteTM: Take better care of your daily health with a series of health monitoring tools – Blood oxygen monitor, Sleep monitor, 24x7 heart rate monitor, Stress measurement, Breathe practice & Female cycle tracker.
     100 sports modes: Indulge in the routine of your preference with several sports modes to choose from.`,
-    category:"noisewatch"
+    brand:"noisewatch",
+    category:"watch"
   },
   {
     product_tittle:"Noise Diva Smartwatch with Diamond Cut dial, Glossy Metallic Finish, AMOLED Display",
@@ -308,7 +334,8 @@ const watchesData=[
     Noise Buzz: Manage calls directly from your wrist. Access your call logs, make calls from the dial pad and save up to 10 favourite contacts.
     Noise Health SuiteTM: Take better care of your daily health with a series of health monitoring tools – Blood oxygen monitor, Sleep monitor, 24x7 heart rate monitor, Stress measurement, Breathe practice & Female cycle tracker.
     100 sports modes: Indulge in the routine of your preference with several sports modes to choose from.`,
-    category:"noisewatch"
+    brand:"noisewatch",
+    category:"watch"
   },
   {
     product_tittle:"Noise Arc 1.38 Advanced Bluetooth Calling Smart Watch, 550 NITS Brightness, 100 Sports Modes",
@@ -320,7 +347,8 @@ const watchesData=[
     Noise Buzz: Manage calls directly from your wrist. Access your call logs, make calls from the dial pad and save up to 10 favourite contacts.
     Noise Health SuiteTM: Take better care of your daily health with a series of health monitoring tools – Blood oxygen monitor, Sleep monitor, 24x7 heart rate monitor, Stress measurement, Breathe practice & Female cycle tracker.
     100 sports modes: Indulge in the routine of your preference with several sports modes to choose from.`,
-    category:"noisewatch"
+    brand:"noisewatch",
+    category:"watch"
   },
   {
     product_tittle:"Noise Halo Plus Elite Edition Smartwatch with 1.46 Super AMOLED Display, Stainless Steel Finish Metallic Straps",
@@ -332,7 +360,8 @@ const watchesData=[
     Noise Buzz: Manage calls directly from your wrist. Access your call logs, make calls from the dial pad and save up to 10 favourite contacts.
     Noise Health SuiteTM: Take better care of your daily health with a series of health monitoring tools – Blood oxygen monitor, Sleep monitor, 24x7 heart rate monitor, Stress measurement, Breathe practice & Female cycle tracker.
     100 sports modes: Indulge in the routine of your preference with several sports modes to choose from.`,
-    category:"noisewatch"
+    brand:"noisewatch",
+    category:"watch"
   },
   {
     product_tittle:"Noise ColorFit Pulse Grand Smart Watch with 1.69 HD Display, 60 Sports Modes",
@@ -344,7 +373,8 @@ const watchesData=[
     Noise Buzz: Manage calls directly from your wrist. Access your call logs, make calls from the dial pad and save up to 10 favourite contacts.
     Noise Health SuiteTM: Take better care of your daily health with a series of health monitoring tools – Blood oxygen monitor, Sleep monitor, 24x7 heart rate monitor, Stress measurement, Breathe practice & Female cycle tracker.
     100 sports modes: Indulge in the routine of your preference with several sports modes to choose from.`,
-    category:"noisewatch"
+    brand:"noisewatch",
+    category:"watch"
   },
   {
     product_tittle:"boAt Wave Call Smart Watch with Bluetooth Calling, 1.69” HD Display with 550 NITS",
@@ -356,7 +386,8 @@ const watchesData=[
     Noise Buzz: Manage calls directly from your wrist. Access your call logs, make calls from the dial pad and save up to 10 favourite contacts.
     Noise Health SuiteTM: Take better care of your daily health with a series of health monitoring tools – Blood oxygen monitor, Sleep monitor, 24x7 heart rate monitor, Stress measurement, Breathe practice & Female cycle tracker.
     100 sports modes: Indulge in the routine of your preference with several sports modes to choose from.`,
-    category:"boatwatch"
+    brand:"boatwatch",
+    category:"watch"
   },
   {
     product_tittle:"boAt Wave Style Call Smart Watch with Advanced BT Calling Chip,DIY Watch Face Studio",
@@ -368,7 +399,8 @@ const watchesData=[
     Noise Buzz: Manage calls directly from your wrist. Access your call logs, make calls from the dial pad and save up to 10 favourite contacts.
     Noise Health SuiteTM: Take better care of your daily health with a series of health monitoring tools – Blood oxygen monitor, Sleep monitor, 24x7 heart rate monitor, Stress measurement, Breathe practice & Female cycle tracker.
     100 sports modes: Indulge in the routine of your preference with several sports modes to choose from.`,
-    category:"boatwatch"
+    brand:"boatwatch",
+    category:"watch"
   },
   {
     product_tittle:"boAt Wave Electra Smart Watch with 1.81 HD Display, Smart Calling with Ultra-Seamless BT Calling ",
@@ -380,7 +412,8 @@ const watchesData=[
     Noise Buzz: Manage calls directly from your wrist. Access your call logs, make calls from the dial pad and save up to 10 favourite contacts.
     Noise Health SuiteTM: Take better care of your daily health with a series of health monitoring tools – Blood oxygen monitor, Sleep monitor, 24x7 heart rate monitor, Stress measurement, Breathe practice & Female cycle tracker.
     100 sports modes: Indulge in the routine of your preference with several sports modes to choose from.`,
-    category:"boatwatch"
+    brand:"boatwatch",
+    category:"watch"
   },
   {
     product_tittle:"boAt Xtend Smart Watch with Alexa Built-in, 1.69” HD Display, Multiple Watch Faces, Stress Monitor",
@@ -392,7 +425,8 @@ const watchesData=[
     Noise Buzz: Manage calls directly from your wrist. Access your call logs, make calls from the dial pad and save up to 10 favourite contacts.
     Noise Health SuiteTM: Take better care of your daily health with a series of health monitoring tools – Blood oxygen monitor, Sleep monitor, 24x7 heart rate monitor, Stress measurement, Breathe practice & Female cycle tracker.
     100 sports modes: Indulge in the routine of your preference with several sports modes to choose from.`,
-    category:"boatwatch"
+    brand:"boatwatch",
+    category:"watch"
   },
   {
     product_tittle:"boAt Wave Call 2 Smart Watch with 1.83 HD Display, Advanced BT Calling, DIY Watch Face Studio",
@@ -404,7 +438,8 @@ const watchesData=[
     Noise Buzz: Manage calls directly from your wrist. Access your call logs, make calls from the dial pad and save up to 10 favourite contacts.
     Noise Health SuiteTM: Take better care of your daily health with a series of health monitoring tools – Blood oxygen monitor, Sleep monitor, 24x7 heart rate monitor, Stress measurement, Breathe practice & Female cycle tracker.
     100 sports modes: Indulge in the routine of your preference with several sports modes to choose from.`,
-    category:"boatwatch"
+    brand:"boatwatch",
+    category:"watch"
   },
   {
     product_tittle:"boAt Newly Lauched Lunar Comet Smart Watch with 1.39 HD Display, Advanced Bluetooth Calling",
@@ -416,7 +451,8 @@ const watchesData=[
     Noise Buzz: Manage calls directly from your wrist. Access your call logs, make calls from the dial pad and save up to 10 favourite contacts.
     Noise Health SuiteTM: Take better care of your daily health with a series of health monitoring tools – Blood oxygen monitor, Sleep monitor, 24x7 heart rate monitor, Stress measurement, Breathe practice & Female cycle tracker.
     100 sports modes: Indulge in the routine of your preference with several sports modes to choose from.`,
-    category:"boatwatch"
+    brand:"boatwatch",
+    category:"watch"
   },
  
 ]
@@ -431,7 +467,8 @@ const headsetData=[
     ASAP Charge- This headphone comes equipped with our ASAP Charge technology that helps it garner 10 hours of playtime in just 10 min of charge.
     Driver Size- Exhilarate your senses with crystal clear sound reproduction via 40mm drivers, delivering you the boAt immersive experience.
     Ambient Mode- It comes equipped with Ambient Sound Mode that lets the listener stay aware of the sounds in the ambience even while the playback is on. Frequency Range 20Hz -20kHz`,
-    category:"boatheadset"
+    brand:"boatheadset",
+    category:"headset"
   },
   {
     product_tittle:"boAt Airdopes Atom 81 TWS Earbuds with Upto 50H Playtime, Quad Mics ENx™ Tech",
@@ -444,7 +481,8 @@ const headsetData=[
     Super Low Latency- Enjoy a lag less entertainment experience with BEAST Mode for low latency(50ms) so that your gaming sessions always stay smooth.
     ASAP Charge - Courtesy our ASAP Charge tech, the earbuds can garner up to 60Min of playtime in just 5Min of charging.
     Bluetooth Version- Its quipped with the latest Bluetooth v5.3 for faster connectivity.`,
-    category:"boatheadset"
+    brand:"boatheadset",
+    category:"headset"
   },
   {
     product_tittle:"boAt Bassheads 100 in Ear Wired Earphones with Mic(Furious Red)",
@@ -457,7 +495,8 @@ const headsetData=[
     Super Low Latency- Enjoy a lag less entertainment experience with BEAST Mode for low latency(50ms) so that your gaming sessions always stay smooth.
     ASAP Charge - Courtesy our ASAP Charge tech, the earbuds can garner up to 60Min of playtime in just 5Min of charging.
     Bluetooth Version- Its quipped with the latest Bluetooth v5.3 for faster connectivity.`,
-    category:"boatheadset"
+    brand:"boatheadset",
+    category:"headset"
   },
   {
     product_tittle:"boAt BassHeads 225 Special Edition in-Ear Wired Headphones with Mic (Blue)",
@@ -469,7 +508,8 @@ const headsetData=[
     Made to fit you and your lifestyle, providing a smooth grip for an extra secure and comfortable fit for your ears
     Passive noise cancellation feature enables users to enjoy listening to music even in a chaotic and noisy environment; it also enables users to receive calls on-the-go
     Crafted with care, the polished metal ensures its longevity, the tangle-free cable is lightweight and features user-friendly controls for easy functioning`,
-    category:"boatheadset"
+    brand:"boatheadset",
+    category:"headset"
   },
   {
     product_tittle:"boAt Rockerz 255 Neo in-Ear Bluetooth Neckband with Mic with ENx Tech, Smart Magnetic Buds",
@@ -481,7 +521,8 @@ const headsetData=[
     Made to fit you and your lifestyle, providing a smooth grip for an extra secure and comfortable fit for your ears
     Passive noise cancellation feature enables users to enjoy listening to music even in a chaotic and noisy environment; it also enables users to receive calls on-the-go
     Crafted with care, the polished metal ensures its longevity, the tangle-free cable is lightweight and features user-friendly controls for easy functioning`,
-    category:"boatheadset"
+    brand:"boatheadset",
+    category:"headset"
   },
   {
     product_tittle:"boAt Rockerz 558 Bluetooth Wireless Over Ear Headphones with Mic Upto 20 Hours Playback",
@@ -493,7 +534,8 @@ const headsetData=[
     Made to fit you and your lifestyle, providing a smooth grip for an extra secure and comfortable fit for your ears
     Passive noise cancellation feature enables users to enjoy listening to music even in a chaotic and noisy environment; it also enables users to receive calls on-the-go
     Crafted with care, the polished metal ensures its longevity, the tangle-free cable is lightweight and features user-friendly controls for easy functioning`,
-    category:"boatheadset"
+    brand:"boatheadset",
+    category:"headset"
   },
   {
     product_tittle:"Mivi DuoPods A850 AI-ENC TWS with HDCalls Technology,13mm Rich Bass Drivers,50Hrs Playtime",
@@ -506,7 +548,8 @@ const headsetData=[
     50 Hours of Combined Playtime: The Swift Charge Technology comes with Type C charging allowing you to get 500 mins of playtime in just 10 minutes of charging.
     Gaming Mode: The ultra low latency gaming mode ensures a lag-free unparalleled multiplayer gaming experience.
     Colors: The DuoPods A850 earbuds come in 5 unique colors. From sophisticated hues to bold and beautiful, pick the one that suits your vibe. Say NO to wired earphones and join the revolution of ground-breaking TWS earbuds.`,
-    category:"miviheadset"
+    brand:"miviheadset",
+    category:"headset"
   },
   {
     product_tittle:"Mivi Commando Q9 Gaming TWS with Aurora Light, Dual RGB,13mm Electro-Dynamic Drivers",
@@ -519,7 +562,8 @@ const headsetData=[
     50 Hours of Combined Playtime: The Swift Charge Technology comes with Type C charging allowing you to get 500 mins of playtime in just 10 minutes of charging.
     Gaming Mode: The ultra low latency gaming mode ensures a lag-free unparalleled multiplayer gaming experience.
     Colors: The DuoPods A850 earbuds come in 5 unique colors. From sophisticated hues to bold and beautiful, pick the one that suits your vibe. Say NO to wired earphones and join the revolution of ground-breaking TWS earbuds.`,
-    category:"miviheadset"
+    brand:"miviheadset",
+    category:"headset"
   },
   {
     product_tittle:"Mivi DuoPods A350 Earbuds- 50hrs Playtime True Wireless in Ear Earbuds with mic. Rich Bass, 13mm Dynamic",
@@ -532,7 +576,8 @@ const headsetData=[
     50 Hours of Combined Playtime: The Swift Charge Technology comes with Type C charging allowing you to get 500 mins of playtime in just 10 minutes of charging.
     Gaming Mode: The ultra low latency gaming mode ensures a lag-free unparalleled multiplayer gaming experience.
     Colors: The DuoPods A850 earbuds come in 5 unique colors. From sophisticated hues to bold and beautiful, pick the one that suits your vibe. Say NO to wired earphones and join the revolution of ground-breaking TWS earbuds.`,
-    category:"miviheadset"
+    brand:"miviheadset",
+    category:"headset"
   },
   {
     product_tittle:"Mivi DuoPods A550 Truly Wireless in Ear Earbuds with Quad Mic ENC(Environmental Noise Cancellation)",
@@ -545,7 +590,8 @@ const headsetData=[
     50 Hours of Combined Playtime: The Swift Charge Technology comes with Type C charging allowing you to get 500 mins of playtime in just 10 minutes of charging.
     Gaming Mode: The ultra low latency gaming mode ensures a lag-free unparalleled multiplayer gaming experience.
     Colors: The DuoPods A850 earbuds come in 5 unique colors. From sophisticated hues to bold and beautiful, pick the one that suits your vibe. Say NO to wired earphones and join the revolution of ground-breaking TWS earbuds.`,
-    category:"miviheadset"
+    brand:"miviheadset",
+    category:"headset"
   },
   {
     product_tittle:"Mivi DuoPods A650 True Wireless in Ear Earbuds with Quad Mic ENC, 13mm Rich Bass Drivers, 55Hrs Playtime",
@@ -558,7 +604,8 @@ const headsetData=[
     50 Hours of Combined Playtime: The Swift Charge Technology comes with Type C charging allowing you to get 500 mins of playtime in just 10 minutes of charging.
     Gaming Mode: The ultra low latency gaming mode ensures a lag-free unparalleled multiplayer gaming experience.
     Colors: The DuoPods A850 earbuds come in 5 unique colors. From sophisticated hues to bold and beautiful, pick the one that suits your vibe. Say NO to wired earphones and join the revolution of ground-breaking TWS earbuds.`,
-    category:"miviheadset"
+    brand:"miviheadset",
+    category:"headset"
   },
   {
     product_tittle:"Mivi Rock and Roll E5 Wired In Ear Earphones with HD Sound and Extra Powerful Bass with Mic, Tangle Free ",
@@ -571,14 +618,15 @@ const headsetData=[
     50 Hours of Combined Playtime: The Swift Charge Technology comes with Type C charging allowing you to get 500 mins of playtime in just 10 minutes of charging.
     Gaming Mode: The ultra low latency gaming mode ensures a lag-free unparalleled multiplayer gaming experience.
     Colors: The DuoPods A850 earbuds come in 5 unique colors. From sophisticated hues to bold and beautiful, pick the one that suits your vibe. Say NO to wired earphones and join the revolution of ground-breaking TWS earbuds.`,
-    category:"miviheadset"
+    brand:"miviheadset",
+    category:"headset"
   },
   // {
   //   product_tittle:"",
   //   image:"",
   //   price:"",
   //   highlights:``,
-  //   category:"miviheadset"
+  //   brand:"miviheadset"
   // },
 ]
 module.exports={MobilesData,laptopsdata,watchesData,headsetData}

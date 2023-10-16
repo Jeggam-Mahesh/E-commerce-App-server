@@ -1,6 +1,6 @@
 const express=require('express')
 const route=require('./router/Routing');
-const client=require('./database/connection')
+// const client=require('./database/connection')
 const connectdb=require('./database/mongooseconnection')
 require('dotenv').config();
 const cors=require('cors'); 
@@ -12,17 +12,17 @@ app.use(cors({
 const port=5000; 
 console.log(port); 
 app.use('/',route); 
-async function  dbconnect(req,res){
-    try{
-        await client.connect()
-        console.log("db connected")
+// async function  dbconnect(req,res){
+//     try{
+//         await client.connect()
+//         console.log("db connected")
         
-    }
-    catch(e){
-        console.log("erroe",e)
-    }
-}
-dbconnect(); 
+//     }
+//     catch(e){
+//         console.log("erroe",e)
+//     }
+// }
+// dbconnect(); 
 
 const startdb= async(req,res)=>{
     try{ 
