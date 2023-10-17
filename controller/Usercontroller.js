@@ -1,5 +1,5 @@
 // const {MobilesData,watchesData,headsetData,laptopsdata}=require("../Data/ProductsData")
-
+// const  trproduct =require('../model/Trendingproducts')
 const cart = require("../model/Cartmodel");
 const mongoose=require('mongoose')
 const Product=require('../model/ProductModel')
@@ -1284,6 +1284,116 @@ const addtocart = async (req, res) => {
     res.send({ error: err });
   }
 };
+
+// const AddTrending= async (req,res)=>{
+//   try{
+// await trproduct.create([{
+//   product_tittle: "vivo Y56 5G (Orange Shimmer, 128 GB)  (8 GB RAM)",
+//   image:
+//     "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/l/b/i/-original-imagnyxthzzeefsa.jpeg?q=70",
+//   price: 26999,
+//   highlights:
+//     "With the superb Vivo Y56 5G, you can take advantage of great pictures and a flawless user experience. With the Vivo T2x 5G, you can experience exceptional performance owing to its 7 nm 5G CPU, the octa-core Dimensity 6020, with a top clock speed of 2.2 GHz. Additionally, the 50 MP main camera on this smartphone beautifully catches every detail you see. Additionally, Super Night Selfie employs noise cancellation technology in conjunction with an Aura Screen Light to produce a calming light that is effective in low light. The pioneering Extended RAM 3.0 technology also uses ROM to expand RAM with a maximum capacity of 8 GB. This enables smooth app switching and allows up to 27 active applications to run in the background.",
+//   brand: "vivo",
+//   category:"mobile"
+// },
+// {
+//   product_tittle:"Lenovo IdeaPad Slim 3 Ryzen 5 7520U 15. (39.6cm) FHD Laptop (16GB/512GB SSD/Win 11/Office /2021)",
+//   image:"https://m.media-amazon.com/images/I/51NvEfo1l9L._AC_UY327_FMwebp_QL65_.jpg",
+//   price:44689,
+//   highlights:`About this item
+//   Processor: 11th Gen Intel Core i3-1115G4 | Speed: 3.0 GHz (Base) - 4.1 GHz (Max) | 2 Cores | 4 Threads | 6MB Cache
+//   OS & Software: Windows 11 Home 64 | Office Home and Student 2021 | Xbox GamePass Ultimate 3-month subscription
+//   Graphics: Integrated Intel UHD Graphics | Memory: 8GB RAM DDR4-2666, Upgradable Up to 16GB | Storage: 256 GB SSD
+//   Display: 15.6" FHD (1920x1080) | TN Technology Display | 250Nits Brightness | Anti Glare
+//   Design: 4 side narrow bezel | 1.99 cm & 1.65 kg | Non-backlit Keyboard | Connectivity: Wi-Fi 5 (11ac | 2x2) | BT 5.0
+//   Battery Life: 3-Cell 45Wh | Upto 6 Hours | Rapid Charge (Up to 80% in 1 Hour) || Audio: 2x 1.5W Stereo Speakers | HD Audio | Dolby Audio`,
+//   brand:"lenovolaptop",
+//   category:"laptop"
+// },
+// {
+//   product_tittle:"Realme GT Neo 3 (Sprint White, 8GB RAM, 128GB Storage)",
+//   image:"https://m.media-amazon.com/images/I/71JPbL+lnXL._AC_UY327_FMwebp_QL65_.jpg",
+//   price:24999,
+//   highlights:`About this item
+//   ☆【RAM, ROM And Expandable】:- 8 GB RAM | 128 GB ROM | Not Expandable | RAM Type : LPDDR5 | Storage Type : UFS 3.1 storage.
+//   ☆【Display】:- 6.7 Inch Full HD+ | AMOLED Display, GT Neo 3 comes With a 120 Hz display and a touch sampling rate of up to 360 Hz, the Realme GT NEO 3 offers enthralling display performance and allows you to redefine smoothness among your peers. Thanks to the 2412*1080 FHD+ resolution and over a billion colours, you can enjoy unrivalled visual experience and get amused whenever you switch your phone on. Corning Gorilla Generation 5 glass facilitates the durability and robustness of the screen.`,
+//   brand:"realme",
+//   category:"mobile"
+// },
+// {
+//   product_tittle:"Apple 2023 MacBook Pro Laptop M2 Max chip with 12‑core CPU and 30‑core GPU: 33.74 cm",
+//   image:"https://m.media-amazon.com/images/I/61LNGJEMh0L._AC_UY327_FMwebp_QL65_.jpg",
+//   price:294405,
+//   highlights:`About this item
+//   SUPERCHARGED BY M2 PRO OR M2 MAX — Take on demanding projects with the M2 Pro or M2 Max chip. M2 Pro has up to 12 CPU cores, up to 19 GPU cores and up to 32GB unified memory. M2 Max has 12 CPU cores, up to 38 GPU cores and up to 96GB unified memory.
+//   UP TO 18 HOURS OF BATTERY LIFE — Go all day thanks to the power-efficient design of the M2 Pro or M2 Max chip. And MacBook Pro delivers exceptional performance whether it’s running on battery or plugged in.
+//   FULLY COMPATIBLE — All your pro apps run lightning-fast — including Adobe Creative Cloud, Xcode, Affinity Designer, Microsoft 365, and many of your favourite iPhone and iPad apps.
+//   BEAUTIFUL PRO DISPLAY — The 14.2-inch Liquid Retina XDR display features Extreme Dynamic Range, over 1,000 nits of brightness for stunning HDR content and pro reference modes for doing your best work on the go.`,
+//   brand:"applelaptop",
+//   category:"laptop"
+// },
+// {
+//   product_tittle:"Noise Diva Smartwatch with Diamond Cut dial, Glossy Metallic Finish, AMOLED Display",
+//   image:"https://m.media-amazon.com/images/I/710Y5yrQa6L._AC_UY327_FMwebp_QL65_.jpg",
+//   price:2799,
+//   highlights:`About this item
+//   1.38” TFT display: Featuring a vibrant round display and a stylish metallic finish, the smartwatch offers a premium on-screen experience.
+//   Tru SyncTM: Hassle-free pairing, stable connectivity and lower battery consumption combine to provide the most advanced calling experience.
+//   Noise Buzz: Manage calls directly from your wrist. Access your call logs, make calls from the dial pad and save up to 10 favourite contacts.
+//   Noise Health SuiteTM: Take better care of your daily health with a series of health monitoring tools – Blood oxygen monitor, Sleep monitor, 24x7 heart rate monitor, Stress measurement, Breathe practice & Female cycle tracker.
+//   100 sports modes: Indulge in the routine of your preference with several sports modes to choose from.`,
+//   brand:"noisewatch",
+//   category:"watch"
+// },
+// {
+//   product_tittle:"Mivi DuoPods A550 Truly Wireless in Ear Earbuds with Quad Mic ENC(Environmental Noise Cancellation)",
+//   image:"https://m.media-amazon.com/images/I/61OkEhV-cGL._AC_UY327_FMwebp_QL65_.jpg",
+//   price:1199,
+//   highlights:`About this item
+//   Product Design: MIVI DuoPods A850 TWS feature 'The Starry Night Effect' shimmer on the case & a stunning superior-grade Metallic finish on the pods.
+//   Call Clarity: The ear buds are powered by AI-ENC to eliminate environmental noise thus helping you deliver clear message on calls
+//   Powerful bass and Crisp Sound: The Electroplated 13mm drivers with custom amplifiers make DuoPods A850 a class apart in music.
+//   50 Hours of Combined Playtime: The Swift Charge Technology comes with Type C charging allowing you to get 500 mins of playtime in just 10 minutes of charging.
+//   Gaming Mode: The ultra low latency gaming mode ensures a lag-free unparalleled multiplayer gaming experience.
+//   Colors: The DuoPods A850 earbuds come in 5 unique colors. From sophisticated hues to bold and beautiful, pick the one that suits your vibe. Say NO to wired earphones and join the revolution of ground-breaking TWS earbuds.`,
+//   brand:"miviheadset",
+//   category:"headset"
+// },
+// {
+//   product_tittle:"boAt Wave Electra Smart Watch with 1.81 HD Display, Smart Calling with Ultra-Seamless BT Calling ",
+//   image:"https://m.media-amazon.com/images/I/71jEWr4wTFL._AC_UY327_FMwebp_QL65_.jpg",
+//   price:1099 ,
+//   highlights:`About this item
+//   1.38” TFT display: Featuring a vibrant round display and a stylish metallic finish, the smartwatch offers a premium on-screen experience.
+//   Tru SyncTM: Hassle-free pairing, stable connectivity and lower battery consumption combine to provide the most advanced calling experience.
+//   Noise Buzz: Manage calls directly from your wrist. Access your call logs, make calls from the dial pad and save up to 10 favourite contacts.
+//   Noise Health SuiteTM: Take better care of your daily health with a series of health monitoring tools – Blood oxygen monitor, Sleep monitor, 24x7 heart rate monitor, Stress measurement, Breathe practice & Female cycle tracker.
+//   100 sports modes: Indulge in the routine of your preference with several sports modes to choose from.`,
+//   brand:"boatwatch",
+//   category:"watch"
+// },
+// {
+//   product_tittle:"boAt Airdopes Atom 81 TWS Earbuds with Upto 50H Playtime, Quad Mics ENx™ Tech",
+//   image:"https://m.media-amazon.com/images/I/61yyQD1KLOL._AC_UY327_FMwebp_QL65_.jpg",
+//   price:899,
+//   highlights:`About this item
+//   Playback- Airdopes Atom 81 offer a total playtime of up to 50HRS, including up to 10HRS of playtime per earbud.
+//   Clear Voice Calls- Be heard clear across voice calls without those usual interruptions, with the Quad Mics ENx Tech enabled Airdopes Atom 81, that cancels out unwanted background noises during calls.
+//   Drivers- Delve into the boAt immersive auditory experience on Airdopes Atom 81 TWS earbuds courtesy its 13mm audio drivers. Frequency - 20Hz-20KHz
+//   Super Low Latency- Enjoy a lag less entertainment experience with BEAST Mode for low latency(50ms) so that your gaming sessions always stay smooth.
+//   ASAP Charge - Courtesy our ASAP Charge tech, the earbuds can garner up to 60Min of playtime in just 5Min of charging.
+//   Bluetooth Version- Its quipped with the latest Bluetooth v5.3 for faster connectivity.`,
+//   brand:"boatheadset",
+//   category:"headset"
+// },
+// ])
+// res.send("data inserted")
+//   }
+//   catch(err){
+//     res.send({error:err})
+//   }
+// }
 const getcartdetails= async (req,res)=>{
   try{
     const user_email=req.email
@@ -1319,4 +1429,4 @@ console.log("details=====================",details);
 res.send({details:details})
 }
 
-module.exports = { Mobiles, Laptop, Headset, Watches, Addproduct, addtocart,getcartdetails,getdetails,removeFromCart };
+module.exports = { Mobiles, Laptop, Headset, Watches, Addproduct, addtocart,getcartdetails,getdetails,removeFromCart};

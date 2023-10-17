@@ -22,7 +22,8 @@ route.get("/applelaptops")
 route.get("/lenovo",)
 route.post('/register',register);
 route.post('/login',login);
-route.post('/createproduct',Addproduct);   
+route.post('/createproduct',Addproduct); 
+// route.post('/createTrendingProducts',AddTrending)  
 route.post("/addtocart",tokenVerification,addtocart)
 route.get("/getcartdetails",tokenVerification,getcartdetails)
 route.delete("/removefromcart/:id",tokenVerification,removeFromCart)
