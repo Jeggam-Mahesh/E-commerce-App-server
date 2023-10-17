@@ -2,6 +2,7 @@ const jwt=require("jsonwebtoken")
 const secretkey="mahesh@$1234"
 const tokenVerification= async (req,res,next)=>{
 const token=req.header("authorization");
+console.log("tpoken========",token);
 if(!token)
 return res.status(401).json({msg:"unothorized"})
   const validate=await jwt.verify(token,secretkey)

@@ -5,6 +5,6 @@ const usersSchema=new Schema({
     phone:Number,
     email:String,
     password:String,
-    islogin:String,
+    islogin:Boolean,
 })
 module.exports=mongoose.model("RegisteredUsers",usersSchema);

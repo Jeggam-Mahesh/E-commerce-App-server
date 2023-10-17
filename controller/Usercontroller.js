@@ -1,7 +1,7 @@
 // const {MobilesData,watchesData,headsetData,laptopsdata}=require("../Data/ProductsData")
 
 const cart = require("../model/Cartmodel");
-
+const mongoose=require('mongoose')
 const Product=require('../model/ProductModel')
 const user=require("../model/UsersModel")
 const Mobiles = async (req, res) => {
@@ -1295,6 +1295,22 @@ res.send(cartdetails)
     res.send({error:err})
   }
 }
+const removeFromCart= async (req,res)=>{
+
+  try{
+    const {id}=req.params
+    console.log("params====",id);
+    const specificObjectId = new mongoose.Types.ObjectId(id);
+console.log('Specific ObjectId:', specificObjectId);
+  
+   const deletedproduct=await cart.findOneAndUpdate({userEmail:req.email},{$pull:{cart:{_id:specificObjectId}}},{new:true})
+  //  console.log("deleted product=====",deletedproduct);
+   res.send(deletedproduct)
+  }
+  catch(err){
+    res.send({error:err})
+  }
+}
 const getdetails=async(req,res)=>{
 userEmail= req.email;
 console.log("useremail",userEmail);
@@ -1303,4 +1319,4 @@ console.log("details=====================",details);
 res.send({details:details})
 }
 
-module.exports = { Mobiles, Laptop, Headset, Watches, Addproduct, addtocart,getcartdetails,getdetails };
+module.exports = { Mobiles, Laptop, Headset, Watches, Addproduct, addtocart,getcartdetails,getdetails,removeFromCart };

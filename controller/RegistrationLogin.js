@@ -43,19 +43,24 @@ const login=async(req,res)=>{
     }
     let token =jwt.sign({email:details.email},secretkey,{expiresIn:'30d'}); 
     console.log("token:",token);
-    // const islogin=user.updateOne({email:find.email},{$set:{islogin:true}})
+    const islogin= await user_register.findOneAndUpdate({email:find.email},{$set:{islogin:true}},{new:true})
     return res.status(200).send({msg:"user is successfully loged in",token:token,result:"OK",username:find.name,islogin:true})
     }
     catch(err){
         res.send({error:err})
     } 
 }
-const logout= async (req,res)=>{
+const logout= async (req,res)=>{ 
   userEmail=req.email;
   try{
-  const updateLogOutStatus =await user.updateOne({email:userEmail},{ $set : { isLogin : false } });
-  res.staus(200).send({msg:"Logged out succesfully"})
+  const updateLogOutStatus =await user_register.findOneAndUpdate({email:userEmail},{ $set : { islogin : false } });
+  if(updateLogOutStatus)
+  res.status(200).send({msg:"Logged out succesfully",code:200})
+else{
+    res.status(400).json({code:res.status,msg:"failed to log out"})
+}
   }
+
   catch(err){ 
     console.log({error:err});
     res.status(500).send({error:err})
