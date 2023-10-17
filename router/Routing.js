@@ -1,6 +1,6 @@
 const route=require('express').Router();
 const home=require('../controller/Home')
-const {Mobiles,Watches,Laptop,Headset,Addproduct,addtocart,getcartdetails,getdetails,removeFromCart}=require("../controller/Usercontroller")
+const {Mobiles,Watches,Laptop,Headset,Addproduct,addtocart,getcartdetails,getdetails,removeFromCart,placeOrder}=require("../controller/Usercontroller")
 const {register,login,logout}=require('../controller/RegistrationLogin');
 const tokenVerification=require("../middleware/tokenVerification")
 const temp=require('../controller/Usercontroller');
@@ -27,6 +27,8 @@ route.post('/createproduct',Addproduct);
 route.post("/addtocart",tokenVerification,addtocart)
 route.get("/getcartdetails",tokenVerification,getcartdetails)
 route.delete("/removefromcart/:id",tokenVerification,removeFromCart)
+route.post('/placeOrder/:email',placeOrder)
+// route.put("/updatequantity/:id",tokenVerification,UpdateQuantity)
 route.get("/getdetails",tokenVerification,getdetails)
 route.post("/logoutuser",tokenVerification,logout)
 module.exports=route;   

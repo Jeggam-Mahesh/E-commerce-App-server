@@ -1421,6 +1421,17 @@ console.log('Specific ObjectId:', specificObjectId);
     res.send({error:err})
   }
 }
+const placeOrder= async (req,res)=>{
+  try{
+const {email}=req.params
+const orderDetails=await cart.findOneAndUpdate({userEmail:email},{$set:{cart:[]}},{new:true})
+res.send({msg:orderDetails})
+  }
+  catch(err){
+    console.log("error",err);
+    res.send({error:err})
+  }
+}
 const getdetails=async(req,res)=>{
 userEmail= req.email;
 console.log("useremail",userEmail);
@@ -1429,4 +1440,4 @@ console.log("details=====================",details);
 res.send({details:details})
 }
 
-module.exports = { Mobiles, Laptop, Headset, Watches, Addproduct, addtocart,getcartdetails,getdetails,removeFromCart};
+module.exports = { Mobiles, Laptop, Headset, Watches, Addproduct, addtocart,getcartdetails,getdetails,removeFromCart,placeOrder};
