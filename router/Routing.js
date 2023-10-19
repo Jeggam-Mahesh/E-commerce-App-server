@@ -30,5 +30,5 @@ route.delete("/removefromcart/:id",tokenVerification,removeFromCart)
 route.post('/placeOrder/:email',placeOrder)
 // route.put("/updatequantity/:id",tokenVerification,UpdateQuantity)
 route.get("/getdetails",tokenVerification,getdetails)
-route.post("/logoutuser",tokenVerification,logout)
+route.post("/logoutuser/:email",logout)
 module.exports=route;   

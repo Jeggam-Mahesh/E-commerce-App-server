@@ -2,7 +2,7 @@
 // const  trproduct =require('../model/Trendingproducts')
 const cart = require("../model/Cartmodel");
 const mongoose=require('mongoose')
-const Product=require('../model/ProductModel')
+const Product=require('../model/ProductModel')   
 const user=require("../model/UsersModel")
 const Mobiles = async (req, res) => {
   try {
@@ -1419,7 +1419,7 @@ console.log('Specific ObjectId:', specificObjectId);
   }
   catch(err){
     res.send({error:err})
-  }
+  } 
 }
 const placeOrder= async (req,res)=>{
   try{
