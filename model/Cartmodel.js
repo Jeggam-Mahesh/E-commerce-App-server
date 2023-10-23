@@ -9,6 +9,6 @@ const cartSchema=new Schema({
     price:Number,
     highlights:String,
     category:String,
-    quantity:String,
+    quantity:Number,
 }]})
 module.exports=mongoose.model("cart",cartSchema);

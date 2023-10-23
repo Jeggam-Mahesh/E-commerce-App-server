@@ -3,6 +3,9 @@ const home=require('../controller/Home')
 const {Mobiles,Watches,Laptop,Headset,Addproduct,addtocart,getcartdetails,getdetails,removeFromCart,placeOrder}=require("../controller/Usercontroller")
 const {register,login,logout}=require('../controller/RegistrationLogin');
 const tokenVerification=require("../middleware/tokenVerification")
+const checkout = require("../controller/Payment/paymentController");
+const paymentVerification = require("../controller/Payment/paymentVerification");
+const getKey = require("../controller/Payment/getKey");
 const temp=require('../controller/Usercontroller');
 route.get("/",home);
 
@@ -27,8 +30,14 @@ route.post('/createproduct',Addproduct);
 route.post("/addtocart",tokenVerification,addtocart)
 route.get("/getcartdetails",tokenVerification,getcartdetails)
 route.delete("/removefromcart/:id",tokenVerification,removeFromCart)
+// route.get('/neworder',neworder)
 route.post('/placeOrder/:email',placeOrder)
 // route.put("/updatequantity/:id",tokenVerification,UpdateQuantity)
 route.get("/getdetails",tokenVerification,getdetails)
 route.post("/logoutuser/:email",logout)
+
+
+route.post("/checkout", checkout);
+route.post("/paymentverification", paymentVerification);
+route.get("/getkey", getKey);
 module.exports=route;   

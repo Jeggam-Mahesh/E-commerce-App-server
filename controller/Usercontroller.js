@@ -1270,11 +1270,11 @@ const addtocart = async (req, res) => {
     if (existCart) {
       const updatecart = await cart.findOneAndUpdate(
         { userEmail: user_email },
-        { $push: { cart: { ...item, userEmail: user_email, id: item._id } } },
+        { $push: { cart: { ...item, userEmail: user_email, id: item._id,quantity:quantity+1 } } },
         {new : true}
       );
     } else {
-      const newcart = await new cart(temp);
+      const newcart = await new cart({...temp,quantity:1});
       console.log("new cart", await newcart.save());
      
     }

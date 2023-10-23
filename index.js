@@ -12,17 +12,6 @@ app.use(cors({
 const port=5000; 
 console.log(port); 
 app.use('/',route); 
-// async function  dbconnect(req,res){
-//     try{
-//         await client.connect()
-//         console.log("db connected")
-        
-//     }
-//     catch(e){
-//         console.log("erroe",e)
-//     }
-// }
-// dbconnect(); 
 
 const startdb= async(req,res)=>{
     try{ 
