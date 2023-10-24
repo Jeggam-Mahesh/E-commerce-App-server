@@ -29,7 +29,7 @@ console.log("req body",req.body);
         
         if (paymentDetaits) {
           paymentDetaits.save();
-          redirect("http://localhost:3000/");
+          // redirect("http://localhost:3000/");
           res.status(200).send("payment details stored")
         } else {
           res.status(400).json({
